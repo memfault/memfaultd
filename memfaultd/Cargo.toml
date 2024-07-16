@@ -1,9 +1,15 @@
 [package]
 name = "memfaultd"
-version = "0.1.0"
+version = "1.13.0"
 edition = "2021"
 autobins = false
 rust-version = "1.65"
+description = "Memfault daemon for embedded Linux systems. Observability, logging, crash reporting, and updating all in one service. Learn more at https://docs.memfault.com/"
+homepage = "https://github.com/memfault/memfaultd"
+documentation = "https://docs.memfault.com/"
+license-file = "License.txt"
+readme = "README.md"
+repository = "https://github.com/memfault/memfaultd"
 
 [[bin]]
 name = "memfaultd"
@@ -22,7 +28,7 @@ name= "mfw"
 path= "src/bin/mfw.rs"
 
 [dependencies]
-memfaultc-sys = { path= "../memfaultc-sys" }
+memfaultc-sys = { path= "../memfaultc-sys", version = "1.13.0" }
 argh = "0.1.10"
 cfg-if = "1.0.0"
 chrono = { version = "0.4.23", features = ["serde"]}
