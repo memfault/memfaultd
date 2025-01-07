@@ -1,6 +1,6 @@
 [package]
 name = "memfaultd"
-version = "1.16.0"
+version = "1.16.1"
 edition = "2021"
 autobins = false
 rust-version = "1.72"
@@ -28,8 +28,8 @@ name= "mfw"
 path= "src/bin/mfw.rs"
 
 [dependencies]
-memfaultc-sys = { path= "../memfaultc-sys", version = "1.16.0" }
-ssf = { package = "memfault-ssf", path= "../memfault-ssf", version = "1.16.0" }
+memfaultc-sys = { path= "../memfaultc-sys", version = "1.16.1" }
+ssf = { package = "memfault-ssf", path= "../memfault-ssf", version = "1.16.1" }
 argh = "0.1.10"
 cfg-if = "1.0.0"
 chrono = { version = "0.4.23", features = ["serde"]}
