@@ -1,6 +1,6 @@
 [package]
 name = "memfaultc-sys"
-version = "1.19.0"
+version = "1.20.0"
 edition = "2021"
 autobins = false
 description = "Supporting crate for the Memfault memfaultd embedded Linux agent"
