@@ -1,6 +1,6 @@
 [package]
 name = "memfault-ssf"
-version = "1.22.0"
+version = "1.23.0"
 edition = "2021"
 description = "Supporting crate for the Memfault memfaultd embedded Linux agent"
 homepage = "https://github.com/memfault/memfaultd"
@@ -12,6 +12,6 @@ repository = "https://github.com/memfault/memfaultd"
 [dependencies]
 futures = "0.3.31"
 log = "0.4"
-tokio = { version = "1.43.0", features = ["sync", "macros", "rt", "net"] }
+tokio = { version = "1.43.1", features = ["sync", "macros", "rt", "net"] }
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
