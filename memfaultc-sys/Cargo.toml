@@ -1,6 +1,6 @@
 [package]
 name = "memfaultc-sys"
-version = "1.24.0"
+version = "1.25.0"
 edition = "2021"
 autobins = false
 description = "Supporting crate for the Memfault memfaultd embedded Linux agent"
@@ -23,3 +23,6 @@ default = []
 coredump = []
 systemd = []
 swupdate = []
+
+[lints]
+workspace = true
