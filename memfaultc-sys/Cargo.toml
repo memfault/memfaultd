@@ -1,7 +1,8 @@
 [package]
 name = "memfaultc-sys"
-version = "1.30.0"
+version = "1.30.1"
 edition = "2021"
+rust-version = "1.80"
 autobins = false
 description = "Supporting crate for the Memfault memfaultd embedded Linux agent"
 homepage = "https://github.com/memfault/memfaultd"
